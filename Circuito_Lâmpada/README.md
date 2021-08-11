@@ -1,18 +1,18 @@
 # Circuito_Lâmpada
 ## Sumário
 
-[Sumário](## Sumário)  
-Objetivo    
-Componentes    
-Parâmetros    
-Lista de materiais    
-Links de Lojas    
-Teste    
-Diagrama de conexões    
-Roteiro    
-Materiais    
-Etapas    
-Notas    
+* [Sumário](#sumário)
+* [Objetivo](#objetivo)
+* [Componentes](#componentes)
+  * [Parâmetros](#parâmetros)
+  * [Lista de materiais](#lista-de-materiais)
+  * [Links de Lojas](#links-de-Lojas)
+* [Teste](#teste)
+  * [Diagrama de conexões](#diagrama-de-conexões)
+  * [Roteiro](#roteiro)
+  * [Materiais](#materiais)
+  * [Etapas](#etapas)
+* [Notas](#notas)
 
 ## Objetivo
 O esquemático do circuito da lâmpada tem como objetivo:
@@ -23,8 +23,8 @@ Acoplar ao circuito lógico para que este tenha a capacidade de controlar o acio
 Simular o no circuito no tempo
 
 
-Componentes
-Parâmetros
+## Componentes
+### Parâmetros
 
 Parâmetro
 Valor
@@ -57,7 +57,7 @@ V
 
 
 
-Lista de materiais
+### Lista de materiais
 
 Componente
 Quantidade
@@ -81,12 +81,12 @@ R$ 3,83
 R$ 3,83
 
 
-Links de Lojas
+### Links de Lojas
 Lâmpada LED Kian
 Soquete p/ Lâmpada Cinza Kit-Flex
 Interruptor Simples Steck
 Plug 10A Macho Branco 3P
-Teste
+## Teste
 
 O teste do circuito tem o objetivo de verificar se:
 
@@ -95,11 +95,11 @@ Realizar medições no circuito
 Verificar se os parâmetros calculados e/ou simulados estão corretos
 Gerar feedback sobre a qualidade do circuito
 
-Diagrama de conexões
+### Diagrama de conexões
 
 
-Roteiro
-Materiais
+### Roteiro
+#### Materiais
 - 2m Fio (?)
 - plug Macho tomada
 - Bocal de lampada
@@ -109,11 +109,11 @@ Materiais
 - Lâmpada
 - Interruptor
 
-Etapas
+#### Etapas
 
 1- Medir a rede elétrica com o Multivoltímetro
 1.1 - medir continuidade no interruptor
 2- Ligar o bocal na rede elétrica
 3- Rosquear a lâmpada no bocal
 
-Notas
+## Notas
