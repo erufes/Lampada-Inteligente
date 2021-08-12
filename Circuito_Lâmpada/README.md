@@ -18,8 +18,9 @@ O esquemático do circuito da lâmpada tem como objetivo:
 - Modelar a lâmpada para 127 V
 - Modelar a fonte de alimentação para a lâmpada (rede elétrica residencial monofásica)
 - Acoplar ao circuito lógico para que este tenha a capacidade de controlar o acionamento da lâmpada
-- Simular o no circuito no tempo
+- Simular o circuito no tempo
 
+![esquemático do circuito](Circuito_lampada_prj/photos/schematic.png)
 
 ## Componentes
 ### Parâmetros
@@ -44,7 +45,7 @@ O esquemático do circuito da lâmpada tem como objetivo:
 | Soquete p/ Lâmpada Cinza Kit-Flex |      1     |     R$ 7,50    | R$ 7,50 |
 | Plug 10A Macho Branco 3P          |      1     |     R$ 3,83    | R$ 3,83 |
 
-
+![Gráfico de gastos com componentes](Circuito_lampada_prj/photos/Gastos%20com%20Componentes.png)
 
 ### Links de Lojas
 [Lâmpada LED Kian](https://produto.mercadolivre.com.br/MLB-1923315495-lmpada-de-led-6w-branco-frio-6500k-kian-3un-casa-banheiro-_JM?matt_tool=18956390&utm_source=google_shopping&utm_medium=organic)
@@ -66,6 +67,7 @@ O teste do circuito tem o objetivo de verificar se:
 
 ### Diagrama de conexões
 
+![Diagrama de conexões](Circuito_lampada_prj/photos/Esquema_ligação_lampada.png)
 
 ### Roteiro
 
