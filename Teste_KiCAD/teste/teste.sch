@@ -1,0 +1,92 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Transistor_BJT:2N2219 Q?
+U 1 1 611E3F22
+P 4250 3750
+F 0 "Q?" H 4440 3796 50  0000 L CNN
+F 1 "2N2219" H 4440 3705 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-39-3" H 4450 3675 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 4250 3750 50  0001 L CNN
+	1    4250 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 611E4E5B
+P 4350 3300
+F 0 "R?" H 4420 3346 50  0000 L CNN
+F 1 "R" H 4420 3255 50  0000 L CNN
+F 2 "" V 4280 3300 50  0001 C CNN
+F 3 "~" H 4350 3300 50  0001 C CNN
+	1    4350 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 611E542F
+P 3800 3750
+F 0 "R?" V 4007 3750 50  0000 C CNN
+F 1 "R" V 3916 3750 50  0000 C CNN
+F 2 "" V 3730 3750 50  0001 C CNN
+F 3 "~" H 3800 3750 50  0001 C CNN
+	1    3800 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pspice:0 #GND?
+U 1 1 611E6B3E
+P 4350 4150
+F 0 "#GND?" H 4350 4050 50  0001 C CNN
+F 1 "0" H 4350 4239 50  0000 C CNN
+F 2 "" H 4350 4150 50  0001 C CNN
+F 3 "~" H 4350 4150 50  0001 C CNN
+	1    4350 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V5 #PWR?
+U 1 1 611E6EA3
+P 3500 3750
+F 0 "#PWR?" H 3500 3600 50  0001 C CNN
+F 1 "+1V5" H 3515 3923 50  0000 C CNN
+F 2 "" H 3500 3750 50  0001 C CNN
+F 3 "" H 3500 3750 50  0001 C CNN
+	1    3500 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V5 #PWR?
+U 1 1 611E765D
+P 4350 3000
+F 0 "#PWR?" H 4350 2850 50  0001 C CNN
+F 1 "+1V5" H 4365 3173 50  0000 C CNN
+F 2 "" H 4350 3000 50  0001 C CNN
+F 3 "" H 4350 3000 50  0001 C CNN
+	1    4350 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 3000 4350 3150
+Wire Wire Line
+	4350 3450 4350 3550
+Wire Wire Line
+	4050 3750 3950 3750
+Wire Wire Line
+	3650 3750 3500 3750
+Wire Wire Line
+	4350 3950 4350 4150
+$EndSCHEMATC
